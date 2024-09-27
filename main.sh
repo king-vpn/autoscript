@@ -22,7 +22,7 @@ TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
 CHATID="-1001780240824"
-KEY="7439678309:AAFSBZWBIx4zKWu4fGRRKK2r6cCOa8v9UtA"
+KEY="7765609455:AAHRT-LSx_qIMG_KTdLaW4NVQdnVqCosvW4"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 export IP=$( curl -sS icanhazip.com )
