@@ -35,19 +35,7 @@ fun_bar() {
     echo -e "\033[0;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
     tput cnorm
 }
-res1() {
-    wget https://raw.githubusercontent.com/king-vpn/autoscript/main/menu/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/king-vpn/autoscript/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -p menu.zip
-    chmod +x menu/*
-    mv menu/* /usr/local/sbin
-    rm -rf menu
-    rm -rf menu.zip
-    rm -rf *.sh*
-    rm -rf /usr/local/sbin/*~
-    rm -rf /usr/local/sbin/gz*
-    rm -rf /usr/local/sbin/*.bak
-}
+res1()
 netfilter-persistent
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
